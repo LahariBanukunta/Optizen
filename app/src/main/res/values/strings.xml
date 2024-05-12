@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Optizen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Welcome">Welcome to India</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="title_resources">Resources</string>
+    <string name="title_settings">Settings</string>
+
+</resources>

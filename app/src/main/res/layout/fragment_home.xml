@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Block 1: Display screen time -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_screen_time_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen Time"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+
+        <!-- Display screen time here -->
+        <TextView
+            android:id="@+id/text_screen_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0s"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <!-- Block 2: Display top 4 most used apps -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_most_used_apps_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most Used Apps"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+
+        <!-- RecyclerView to display top 4 most used apps -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_most_used_apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
